@@ -22,8 +22,14 @@
 
     /* Aliases */
     "types": ["node"],
+    "baseUrl": "./",
     "paths": {
-      "@*": ["./src/*"]
+      "@assets/*": ["./src/assets/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@mytypes/*": ["./src/types/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@hooks/*": ["./src/hooks/*"]
     }
   },
   "include": ["src"],
